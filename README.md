@@ -8,6 +8,7 @@ This repository contains various React components along with their documentation
 
 - [React Recursive Folder Component](#folder-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/folder)
 - [TikTokTie Component](#tiktoktie-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/tiktok-tie)
+- [OTP Component](#otp-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/otp)
 
 - [Contributing](#contributing)
 
@@ -215,6 +216,61 @@ The **TikTokTie** component provides functionality related to TikTok-style featu
 To use the TikTokTie component, follow these steps:
 
 1. Import the `TikTokTie` component in your application:
+
+## OTP Component
+
+### Overview
+
+The **OTP Component** allows users to input a one-time password (OTP) with a specified length. It automatically moves focus between input fields as users type or delete characters.
+
+### Props
+
+- `length` (number): The number of input fields for the OTP.
+- `onComplete` (function): A callback function that is called when the user completes entering the OTP.
+- `seperator` (string, optional): A string that will be displayed between each input field.
+- `inputClass` (string, optional): Custom CSS class for individual input fields.
+- `inputContainerClass` (string, optional): Custom CSS class for the container holding all input fields.
+
+### Installation
+
+To use the OTP component, follow these steps:
+
+1. Import the `OtpComponent` in your application:
+
+2. Use the `OtpComponent` in your application:
+
+```javascript
+function App() {
+  const handleOtpComplete = (otp) => {
+    console.log("OTP entered:", otp);
+  };
+  return (
+    <div>
+      <OtpComponent length={6} onComplete={handleOtpComplete} />
+    </div>
+  );
+}
+```
+
+### Example Usage
+
+Here’s an example of how to use the OTP component with custom classes:
+
+```javascript
+<OtpComponent
+  length={6}
+  onComplete={(otp) => console.log("OTP:", otp)}
+  seperator="-"
+  inputClass="custom-input"
+  inputContainerClass="custom-container"
+/>
+```
+
+## Screenshots (if applicable)
+
+<img width="608" alt="Screenshot 2025-01-27 at 4 40 18 PM" src="https://github.com/user-attachments/assets/eecff8b9-7f07-4881-b3bb-4d25c6d87ec3" />
+
+<img width="534" alt="Screenshot 2025-01-27 at 4 40 31 PM" src="https://github.com/user-attachments/assets/2f5ca03c-3831-4954-b09e-c552f1117cb8" />
 
 ## Contributing
 
