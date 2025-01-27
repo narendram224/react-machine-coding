@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { renderListConfig } from "./components/config";
+import { renderListConfig } from "./config";
 
 const ComponentPath = () => {
   return (
