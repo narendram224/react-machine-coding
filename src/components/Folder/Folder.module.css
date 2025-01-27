@@ -1,0 +1,32 @@
+.folderContainer {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100vh;
+  width: fit-content;
+  padding: 2rem;
+  padding-left: 1rem;
+  border-radius: 4px;
+}
+.folder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+.folderItem {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.folderItem > p:hover {
+  background-color: rgba(48, 85, 159, 0.1);
+  color: rgb(48, 85, 159);
+  transition: background-color 0.3s ease-in-out;
+  padding: rem 0.5rem;
+}
+.isActive {
+  background-color: rgba(48, 85, 159, 0.1);
+  color: rgb(48, 85, 159);
+  border-radius: 4px;
+  padding: 0.25rem;
+}
