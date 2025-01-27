@@ -175,20 +175,6 @@ Here's how your project directory should look:
 └── README.md
 ```
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit issues or pull requests.
-
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ### `yarn build`
 
 Builds the app for production to the `build` folder.\
@@ -198,6 +184,10 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## Screenshots (if applicable)
+
+<img width="604" alt="Screenshot 2025-01-27 at 2 02 54 PM" src="https://github.com/user-attachments/assets/73a205b4-831f-4339-9712-e8a6b7d4e6e2" />
 
 ## TikTokTie Component
 
