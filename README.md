@@ -2,10 +2,12 @@
 
 This repository contains various React components along with their documentation. Below is a list of all components available in this project. Click on any component name to jump to its documentation.
 
+## [Live LINK🚀](https://react-machine-coding-sand.vercel.app) ✅
+
 ## Table of Contents
 
-- [React Recursive Folder Component](#folder-component)
-- [TikTokTie Component](#tiktoktie-component)
+- [React Recursive Folder Component](#folder-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/folder)
+- [TikTokTie Component](#tiktoktie-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/tiktok-tie)
 
 - [Contributing](#contributing)
 
