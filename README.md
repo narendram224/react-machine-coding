@@ -193,19 +193,29 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Overview
 
-The **TikTokTie** component provides functionality related to TikTok-style features. (Provide a brief description of what this component does.)
+The **TikTokTie** component provides functionality related to TikTokToe-style features. (Provide a brief description of what this component does.)
 
 ### Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- You can play the game with two people initally the x will play first.
+- Once X win the game its should be print x winner and then you can reset the game.
+- Else O win the game
 
 ### Installation
 
 To use the TikTokTie component, follow these steps:
 
 1. Import the `TikTokTie` component in your application:
+
+I have imported inside my router file.
+
+```javascript
+<Route path="/ticTacToe" element={<TicTacToe />} />
+```
+
+Here is screenshot of tictactoe game
+
+<img width="760" alt="Screenshot 2025-01-30 at 3 24 32 PM" src="https://github.com/user-attachments/assets/0675bf4f-e487-49ca-9f15-f137636b9e64" />
 
 ## OTP Component
 
