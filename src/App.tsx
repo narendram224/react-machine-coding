@@ -5,6 +5,7 @@ import { folderConfig } from "./components/Folder/folder.config";
 import styles from "./components/Folder/Folder.module.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import OtpComponent from "./components/Otp/Otp";
+import TicTacToe from "./components/ticTac/TicTac";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
               />
             }
           />
+          <Route path="/ticTacToe" element={<TicTacToe />} />
         </Routes>
       </Router>
     </div>

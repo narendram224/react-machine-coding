@@ -10,4 +10,9 @@ export const renderListConfig = [
     label: "React OTP Component",
     description: `Learn how to build a OTP component with React`,
   },
+  {
+    link: "/ticTacToe",
+    label: "React Tic Tac Toe Game",
+    description: `Learn how to build a Tic Tac Toe game with React and Typescript`,
+  },
 ];
