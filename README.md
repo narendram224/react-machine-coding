@@ -7,7 +7,7 @@ This repository contains various React components along with their documentation
 ## Table of Contents
 
 - [React Recursive Folder Component](#folder-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/folder)
-- [TikTokTie Component](#tiktoktie-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/tiktok-tie)
+- [TikTokTie Component](#tiktoktie-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/ticTacToe)
 - [OTP Component](#otp-component) ✅ [Live Preview 🚀](https://react-machine-coding-sand.vercel.app/otp)
 
 - [Contributing](#contributing)
